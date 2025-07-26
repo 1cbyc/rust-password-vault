@@ -1,0 +1,23 @@
+# Rust build
+/target/
+**/*.rs.bk
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Byproducts
+Cargo.lock
+*.log
+
+# Other
+*.tmp 
+
+# docs
+docs/*.md
